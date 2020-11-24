@@ -1,7 +1,7 @@
 [![MovilePay](https://maquinadecartaoboa.com/wp-content/uploads/2019/06/maquininha-de-cart%C3%A3o-movile-pay.png?s=10)](https://maquinadecartaoboa.com/wp-content/uploads/2019/06/maquininha-de-cart%C3%A3o-movile-pay.png)
 # MovilePay KtMapper
 
-**KtMapper** is a library to perform an "object to object" mapping for Kotlin classes based on naming convetions. It can be useful for, for example, do a mapping between domain entities and DTO entities in a API by a "automatic" way.
+**KtMapper** is a library to perform an "object to object" mapping for Kotlin classes based on naming conventions. It can be useful to, for example, do a mapping between domain entities and DTO entities in an API by an "automatic" way.
 For example: supposing that you have the following class...
 
 ```kotlin
@@ -315,7 +315,7 @@ We can see mapping worked as expected.
 #### Current wishlist
 - Refactor code to a more Kotlin idiomatic way (mainly internal code);
 - Remove the need to call `register()` method explicitly for every mapping configuration;
-- Let create a class with mapping configurations for a target with auto-loading by KtMapper;
+- Let to create a class with mapping configurations for a target with auto-loading by KtMapper;
 - Implement collection mapping without inner KtMapper calls.
 
 **Feel free to open a pull request to fix bugs and/or improve how KtMapper works! ;)**
