@@ -315,7 +315,7 @@ We can see mapping worked as expected.
 #### Current wishlist
 - Refactor code to a more Kotlin idiomatic way (mainly internal code);
 - Remove the need to call `register()` method explicitly for every mapping configuration;
-- Let to create a class with mapping configurations for a target with auto-loading by KtMapper;
+- Let create a class with mapping configurations for a target with auto-loading by KtMapper;
 - Implement collection mapping without inner KtMapper calls.
 
 **Feel free to open a pull request to fix bugs and/or improve how KtMapper works! ;)**
